@@ -1,0 +1,21 @@
+#container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+  text-align: center;
+  
+}
+#maindiv{
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: 700;
+}
+#box{
+  margin: auto;
+  align-items: center;
+  /* border: 1px solid black; */
+  width: 48px;
+  justify-content: space-between;
+}
