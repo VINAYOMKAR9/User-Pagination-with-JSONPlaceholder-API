@@ -24,7 +24,7 @@ function displayTodo(data) {
     container.innerHTML = '';
     data.map((el, i) => {
         let id = document.createElement('p');
-        id.innerText=`id:- ${el.id}`
+        id.innerText=`Id:- ${el.id}`
 
         let name = document.createElement('p');
         name.innerText=`name:- ${el.name}`
